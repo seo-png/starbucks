@@ -45,7 +45,8 @@
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="../css/common.css"  />
-   <!-- main.css에 폰트나 아이콘이 적용이 되어야 하기 때문에 main.css 보다 위쪽에 명시해야함  -->
+  <link rel="stylesheet" href="../css/signin.css"  />
+  <!-- main.css에 폰트나 아이콘이 적용이 되어야 하기 때문에 main.css 보다 위쪽에 명시해야함  -->
 
   <script defer src="../js/common.js"></script>
   <!-- defer 속성 => HTML구조가 모두 해석이 되면 그 때 JS가 동작 한다 라는 의미  -->
@@ -414,8 +415,30 @@
 
 
 
-  <section class="sign">
-
+  <section class="signin">
+    <h1>로그인</h1>
+    <div class="signin__card">
+      <h2>
+        <strong>Welcome!</strong> 스타벅스에 오신 것을 환영합니다.
+        <!-- span태그를 사용해도 되지만 의미가 있는 태그를 사용하는 것을 권장 -->
+      </h2>
+      <!-- form 태그 => 입력 양식을 만들어내는 태그, action : 입력 양식이 어떤 주소로
+      데이터가 전송될 것인지에 대한 주소 입력 (여기서는 생략)  -->
+      <form>
+        <input type="text" placeholder="아이디를 입력하세요." />
+        <input type="password" placeholder="비밀번호를 입력하세요." />
+        <input type="submit" value="로그인" />
+        <p>
+          * 비밀번호를 타 사이트와 같이 사용할 경우 도용 위험이 있으니,<br />
+          정기적으로 비밀번호를 변경하세요!
+        </p>
+      </form>
+      <div class="actions">
+        <a href="javascript:void(0)">회원가입</a>
+        <a href="javascript:void(0)">아이디 찾기</a>
+        <a href="javascript:void(0)">비밀번호 찾기</a>
+      </div>
+    </div>
   </section>
 
 

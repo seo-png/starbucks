@@ -8,7 +8,7 @@ body {
    /*각각의 줄의 높이(행간) : 16px의 1.4배의 줄높이를 가진다 */
   font-family: 'Nanum Gothic', sans-serif; 
   /* 이 태그를 통해 body 태그 부분에 나눔고딕이 적용됨.  */
-  height: 3000px;
+  /* height: 3000px; */
 }
 img {
   display: block;
