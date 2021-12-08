@@ -1,7 +1,7 @@
 /* VISUAL */
 .visual {
   margin-top: 120px;
-  /* 이 120px은 header > inner 의 높이 값 이다. (그 부분 밑으로 내림) */
+  /* 이 120px은 header > inner 의 높이 값 이다. (그 부분 밑으로 내림)    */
   background-image: url("../images/visual_bg.jpg");
   background-position: center;
 }
